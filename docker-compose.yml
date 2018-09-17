@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - 8080:8080
+    command: sh -c "npm install && npm run dev"
+    volumes:
+      - ".:/app"
+    environment:
+      HOST: 0.0.0.0
