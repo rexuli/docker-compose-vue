@@ -1,4 +1,4 @@
-# test-vue
+# docker-compose-vue
 
 > A Vue.js project
 
